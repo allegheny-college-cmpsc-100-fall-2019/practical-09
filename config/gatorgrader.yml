@@ -1,0 +1,25 @@
+---
+name: practical-09
+break: true
+indent: 4
+---
+src/main:
+    java:
+        gameshow/PlayFizzBuzz.java:
+            ConfirmFileExists
+            MatchFileFragment --fragment "TODO" --count 0 --exact
+            MatchFileFragment --fragment "{Your Name Here}" --count 0 --exact
+            MatchFileFragment --fragment "while (" --count 1
+            MatchFileFragment --fragment "<=" --count 1
+            MatchFileFragment --fragment " % " --count 3
+            MatchFileFragment --fragment "if (" --count 3
+            MatchFileFragment --fragment "==" --count 2
+            MatchFileFragment --fragment "++" --count 1
+            MatchFileRegex --regex "int\s[a-zA-Z0-9]+\s=\s1;" --count 1 --exact
+            
+
+ExecuteCommand --command "gradle build"
+MatchCommandRegex --command "gradle run" --regex "\bFizz\b" --count 160 --exact
+MatchCommandRegex --command "gradle run" --regex "\bBuzz\b" --count 80 --exact
+MatchCommandFragment --command "gradle run" --fragment "FizzBuzz" --count 40 --exact
+MatchCommandRegex --command "gradle -q --console plain run" --regex "([0-9]{1,3})\b" --count 320 --exact
