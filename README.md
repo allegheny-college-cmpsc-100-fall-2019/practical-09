@@ -39,6 +39,11 @@ As we know, G. Wiz's compulsion to buy nice wizard hats is legendary. So, it cam
 
 It's no secret that gators love math. It follows, then, that their game shows are a little different than those to which you or I might be accustomed. On this particular game show, contestants gather in a line and are asked whether numbers are multiples of 3, 5, or 15. The host starts with the left-most gator and proceeds down the line to the right. It's perilous because the first time a gator misses, they're out!
 
+* Contestants say "Fizz" for multiples of 3
+* Contestants say "Buzz" for multiples of 5
+* Contestants say "FizzBuzz" for multiples of 15
+* Otherwise, contestants repeat the number if none of the conditions are met
+
 G. Wiz is an avid watcher of the show, and knows that the host never generally gets past the number 563. So, all he has to do is memorize -- he thinks -- the results through 600, and he should win the show's prize money ($1337) and be fitted in bespoke wizard hats for at least the rest of the semester. We're going to help by writing a test program that produces the numbers so that he doesn't have to.
 
 ### Use what you know
