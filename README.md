@@ -12,10 +12,11 @@ We revisit our gator friend to see that he's preparing for a nationally-televise
 
 ## General guidelines for this particular practical session
 
-* **Use your voice!** You are being asked to read sources, form an opinion, and use reasoning or evidence to support your choice. Given that you read the sources carefully, you should feel empowered to form arguments.
-* **Practice your writing.** This is an opportunity for you to practice logical structure and clarity -- skills which are indispensible to both your academic and professional careers. If considered thoughfully, practice-focused issues in computer science _are meant to be hard questions_. Should you be able to communicate your thoughts clearly and logically, you'll be a step ahead of many in the discipline.
-* **Try to finish during the class session.** While I provide extra time to complete the work, these assignments can be completed in 50 minutes. This will help you develop your awareness and management of time.
-* **Respect one another.** Healthy dialogue starts from places of difference. Here, _difference_ may mean a host of things including: lived experience, understanding of technical issues, and much, much more. This may mean that you see things only _slightly_ different from  your team members. This may mean that you hold perspectives _dramatically_ different. In any case, seek to understand and then test your understanding based on your new knowledge. You may find that you change your mind -- even if only a little.
+* **Experiment!** We design practical sessions to create a space for you to _try things_. Given the expertise of our classroom TLs and my interest in fixing stuff, I am sure that even if something breaks, we can fix it.
+* **Complete _something_.** Grading for practical assignments hinges on _completion_. As long as you provide a good faith effort to finish a task, your grade should reflect your effort.
+* **Practice skills.** If you work in the discipline of computer science, many of the skills you revisit or establish here are industry standard practice. Learning and practicing them often helps prepare you for either other classes or professional work.
+* **Try to finish during the class session** While I provide extra time to complete the work, these assignments can be completed in 50 minutes. This will help you develop your awareness and management of time.
+* **Help one another!** We're a community of users here, not competitors. If you grasp something quickly, but a neighbor does not, offer to help them after they've tried for a bit. Conversely, _ask for help_ from either me, our lab TLs, or your neighbor.
 
 ## Cloning your repository
 
